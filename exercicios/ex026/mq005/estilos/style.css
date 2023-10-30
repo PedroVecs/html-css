@@ -2,23 +2,36 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+
     margin: 0px;
     padding: 0px;
 }
 
-
-body,html {
-    background-color: lightgray;
+body, html {
+    background-color: lightgrey;
 }
 
 header {
-    background-color: rgb(151, 151, 151);
-
+    background-color: rgb(148, 148, 148);
 }
 
 header > h1 {
     padding: 10px;
     text-align: center;
+}
+
+i#burguer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
 }
 
 menu {
@@ -29,53 +42,35 @@ menu > ul {
     list-style-type: none;
 }
 
-i#burgue {
-    background-color: rgb(53, 53, 53);
-    color: white;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-}
-
-i#burgue:hover {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    transition: .10s, border 2s;
-}
-
 menu > ul > li > a {
     display: block;
     padding: 10px;
-    text-decoration:none ;
+    text-decoration: none;
     text-align: center;
-    background-color: rgba(87, 87, 87,);
+    background-color: rgb(87, 87, 87);
     color: white;
-    border-top: 2px solid rgb(85, 85, 85);
-    
+    border-top: 2px solid gray;
 }
 
-menu > ul > li a:hover {
+menu > ul > li > a:hover {
     background-color: gray;
-    
 }
 
 main {
     width: 90vw;
     background-color: white;
     margin: auto;
+    margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
 }
 
 article > h2 {
     padding-bottom: 20px;
-    
 }
 
 article > p {
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
-    padding: 10px;
 }
