@@ -12,7 +12,7 @@ body,html {
 }
 
 header {
-    background-color: rgb(102, 102, 102);
+    background-color: rgb(151, 151, 151);
 
 }
 
@@ -22,7 +22,7 @@ header > h1 {
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul {
@@ -39,8 +39,9 @@ i#burgue {
 }
 
 i#burgue:hover {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
+    transition: .10s, border 2s;
 }
 
 menu > ul > li > a {
@@ -69,10 +70,12 @@ main {
 
 article > h2 {
     padding-bottom: 20px;
+    
 }
 
 article > p {
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
+    padding: 10px;
 }
